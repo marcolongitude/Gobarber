@@ -1,5 +1,5 @@
 import File from '../models/File';
-
+// TODO teste 
 class FileController {
   async store(req, res) {
     const { originalname: name, filename: path } = req.file;
